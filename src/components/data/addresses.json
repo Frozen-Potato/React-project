@@ -1,0 +1,38 @@
+{
+    "addresses": [
+        {   "ChargerID" : 1,
+            "Location"  : {
+                "Lat"   : 64.6874476,
+                "long"  : 24.4826199
+            }
+        },
+        {
+            "ChargerID" : 2,
+            "Location"  : {
+                "Lat"   : 64.96916486,
+                "long"  : 25.05969377
+            }
+        },
+        {
+            "ChargerID" : 3,
+            "Location"  : {
+                "Lat"   : 65.17724604,
+                "long"  : 25.19618763
+            }
+        },
+        {
+            "ChargerID" : 4,
+            "Location"  : {
+                "Lat"   : 64.95228831,
+                "long"  : 25.87787614
+            }
+        },
+        {
+            "ChargerID" : 5,
+            "Location"  : {
+                "Lat"   : 65.1894506,
+                "long"  : 25.24813945
+            }
+        }
+    ]
+}
