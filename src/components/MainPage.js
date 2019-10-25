@@ -31,10 +31,10 @@ export default function MainPage() {
         <p>A React Project</p>
         {isAuthenticated
             ? <div>
-              <Button href='/ChargerMap'>Show Charger Map</Button>
+              <Button href='./ChargerMap'>Show Charger Map</Button>
               <br></br>
               <br></br>
-              <Button href='/ChargerList'>Show Charger Lists</Button> 
+              <Button href='./ChargerList'>Show Charger Lists</Button> 
               </div>
             :<></>
             }
