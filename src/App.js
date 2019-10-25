@@ -49,7 +49,7 @@ function App(props){
             <Link to="/">React-project</Link>
           </Navbar.Brand>
           <Navbar.Collapse>
-            <Nav>
+            <Nav pullright>
             {isAuthenticated ? <NavItem onClick={handleLogout}>Logout</NavItem> : <>
             <LinkContainer to="/SignUp">
             <NavItem>Signup</NavItem>
