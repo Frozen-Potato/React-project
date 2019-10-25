@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Map, GoogleApiWrapper, Marker, InfoWindow } from "google-maps-react";
 import { Button } from "react-bootstrap";
-import addresses from './data/addresses.json' 
+import addresses from './data/Cood.js' 
 
 export class ChargerMap extends Component {
     constructor(props){
@@ -9,7 +9,7 @@ export class ChargerMap extends Component {
         this.state = addresses;
     }
     displayMarkers = () => {
-        return this.state.addresses.map((addresses, index) => {
+        return this.state.map((addresses, index) => {
         return <Marker key={index} id={index} position={{
             lat: addresses.Location.lat,
             lng: addresses.Location.long

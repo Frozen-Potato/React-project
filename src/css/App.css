@@ -4,6 +4,7 @@
   
   .App .navbar-brand {
     font-weight: bold;
+    background-color: burlywood;
   }
 .App .navbar {
     background-color: rgba(151, 151, 151, 0.397);
@@ -14,7 +15,7 @@
     padding-right: 15px;
 }
 .navbar-nav {
-    padding-top: 5px;
+    
     float: right;
     box-sizing: border-box;
 }
