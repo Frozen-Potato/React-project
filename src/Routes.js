@@ -6,6 +6,7 @@ import SignIn from './components/Auth/SignIn';
 import AppliedRoutes from "./components/AppliedRoutes";
 import NotFound from './components/NotFound';
 import ChargerMap from './components/ChargerMap'
+import ChargerList from './components/ChargerList'
 
 
 export default function Routes({ appProps }) {
@@ -15,6 +16,7 @@ export default function Routes({ appProps }) {
         <AppliedRoutes path="/Signin" exact component={SignIn} appProps={appProps} />
         <AppliedRoutes path="/SignUp" exact component={SignUp} appProps={appProps} />
         <AppliedRoutes path="/ChargerMap" exact component={ChargerMap} appProps={appProps} />
+        <AppliedRoutes path="/ChargerList" exact component={ChargerList} appProps={appProps} />
         { /* Gotta catch all unmatched routes */ }
         <Route component={NotFound} />
       </Switch>

@@ -30,7 +30,13 @@ export default function MainPage() {
         <h1>Car Charger Map</h1>
         <p>A React Project</p>
         {isAuthenticated
-            ? <Button href='/ChargerMap'>Show Charger Map</Button>:<></>
+            ? <div>
+              <Button href='/ChargerMap'>Show Charger Map</Button>
+              <br></br>
+              <br></br>
+              <Button href='/ChargerList'>Show Charger Lists</Button> 
+              </div>
+            :<></>
             }
       </div>
     </div>
